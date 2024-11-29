@@ -12,7 +12,7 @@ Python: Pandas, Scikit-learn, Matplotlib, Seaborn
 ML: K-Means clustering algorithm
 
 ## Code
-Open the Jupyter notebook customer_shopping_trends.ipynb to see the data analysis steps.
+Open the Jupyter notebook [Customer_shopping_trends.ipynb](Customer_shopping_trends.ipynb) to see the data analysis steps.
 
 ## Observations and Recommendations 
 - During the customer segmentation analysis done, there were 3 clusters identified, based on age and the number of previous purchases within the time period:
