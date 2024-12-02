@@ -1,28 +1,48 @@
-# Data Science project - Customer segmentation
+# Customer Segmentation Project
 
 ## Description
-The aim of the project was to identify frequent and non-frequent buyers and provide recommendations for increased sales.  
-The objective was to conduct customer segmentation based on age, purshase price and number of previous purchases. 
+This project focuses on **customer segmentation** to identify frequent and non-frequent buyers, with the goal of recommending strategies to increase sales. The analysis segmented customers based on **age**, **purchase price**, and **number of previous purchases**, enabling actionable insights for targeted marketing.
+
+---
 
 ## Data
-Kaggle data set : [Customer Shopping (Latest Trends) Dataset](http://www.kaggle.com/datasets/bhadramohit/customer-shopping-latest-trends-dataset/data)
+The dataset used for this project is publicly available on Kaggle:  
+[Customer Shopping (Latest Trends) Dataset](http://www.kaggle.com/datasets/bhadramohit/customer-shopping-latest-trends-dataset/data)
+
+---
 
 ## Technologies
-Python: Pandas, Scikit-learn, Matplotlib, Seaborn  
-ML: K-Means clustering algorithm
+This project utilizes the following technologies and tools:
+
+- **Python Libraries**:  
+  - `Pandas` (Data Processing)  
+  - `Matplotlib` and `Seaborn` (Data Visualization)  
+  - `Scikit-learn` (Machine Learning)
+
+- **Machine Learning Algorithm**:  
+  - **K-Means Clustering**
+
+---
 
 ## Code
-Open the Jupyter notebook [Customer_shopping_trends.ipynb](Customer_shopping_trends.ipynb) to see the data analysis steps.
+The step-by-step data analysis and clustering process can be found in the Jupyter Notebook:  
+[**Customer_shopping_trends.ipynb**](Customer_shopping_trends.ipynb)
 
-## Observations and Recommendations 
-- During the customer segmentation analysis done, there were 3 clusters identified, based on age and the number of previous purchases within the time period:
-  - Cluster 0 - Older, moderately frequent buyers
-  - Cluster 1 - Mid-aged, least frequncy buyers
-  - Cluster 2 - Younger, frequnect buyers
-- Based on the clusters, it is recommended to, 
-  - Offer personalized product recommendations for Cluster 2, as these frequent buyers could appreciate such a service. 
-  - Create targeted campaigns to offer discounts for Cluster 1 as they are less frequent buyers.
+---
 
+## Observations and Recommendations
 
+### Observations
+Using the K-Means clustering algorithm, the analysis identified **three distinct customer clusters** based on age and purchase behavior:  
+- **Cluster 0**: Older customers, moderately frequent buyers.  
+- **Cluster 1**: Mid-aged customers, least frequent buyers.  
+- **Cluster 2**: Younger customers, frequent buyers.
+
+### Recommendations
+Based on the clustering analysis, the following strategies are proposed:  
+1. **Cluster 2 (Younger, Frequent Buyers)**:
+   - Offer personalized product recommendations to enhance engagement and loyalty.  
+2. **Cluster 1 (Mid-aged, Least Frequent Buyers)**:
+   - Develop targeted discount campaigns to encourage more frequent purchases.
 
 
